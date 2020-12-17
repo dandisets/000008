@@ -81,6 +81,8 @@ name: Phenotypic variation within and across transcriptomic cell types in mouse 
 number_of_cells: 1328
 number_of_slices: 1260
 number_of_subjects: 266
+organism:
+- species: Mus musculus
 publications:
 - identifier: doi:10.1101/2020.02.03.929158
   url: https://www.biorxiv.org/content/10.1101/2020.02.03.929158v1.full
