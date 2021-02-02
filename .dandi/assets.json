@@ -110868,23 +110868,84 @@
 "attrs":
 {
 "ctime":
-"2020-08-07T23:45:04.947000+00:00",
+"2021-02-02T20:10:54.421000+00:00",
+"mtime":
+"2020-10-21T12:51:48.903421-04:00",
 "size":
 9456345
 },
 "girder":
 {
 "id":
-"5f2de780ee8baa608594baa4"
+"6019b1cebdc9dce0918252f0"
 },
 "metadata":
-{},
+{
+"ALM_VISp_top3":
+"pvalb reln itm2a (65.0%), pvalb tpbg (28.0%), pvalb reln tac1 (7.0%)",
+"RNA_family":
+"pvalb",
+"RNA_type":
+"pvalb il1rapl2",
+"RNA_type_top3":
+"pvalb il1rapl2 (52.7%), pvalb reln (41.0%), pvalb calb1_2 (4.9%)",
+"age":
+"p98d",
+"cell_id":
+"20181207_sample_1",
+"date_of_birth":
+"2018-08-31T00:00:00-04:00",
+"experiment_description":
+"current clamp square",
+"genotype":
+"pvalb-cre/wt; ai9/wt",
+"identifier":
+"a4ec4579-5d87-4d0b-bcea-9da129b2d6ab",
+"institution":
+"baylor college of medicine",
+"lab":
+"tolias",
+"md5":
+"92f5665163e6aa59534891e0b1a60e70",
+"nwb_version":
+"2.1.0",
+"session_description":
+"current clamp square",
+"session_id":
+"20181207_sample_1",
+"session_start_time":
+"2018-12-07T00:00:00-05:00",
+"sex":
+"m",
+"sha1":
+"a6d66c707fccc77e37b9cf33b3d1d2a52cb6342e",
+"sha256":
+"322c4f13f473df4de29edd635ccb4ea2654be5386ef160274d14f5606f81692d",
+"sha512":
+"19584b63ff1d5e9910b0ca379cfe9170ec0a8d312f1b37ba5312b1f30b50c1112c3c575439aad6ed530989bb4c7fe7835fb2aacc90ae658d552dccbaa3cea71b",
+"slice_id":
+"20181207_slice_1",
+"subject_id":
+"mouse_zzpug",
+"uploaded_by":
+"dandi 0.10.0+108.g370e57f.dirty",
+"uploaded_datetime":
+"2021-02-02T15:09:13.611834-05:00",
+"uploaded_mtime":
+"2020-10-21T12:51:48.903421-04:00",
+"uploaded_nwb_object_id":
+"1cdd0c50-ca52-4bc9-9a58-9aeb95b85f28",
+"uploaded_size":
+9456345
+},
 "modified":
-"2020-08-07 23:45:04.947000+00:00",
+"2020-10-21 12:51:48.903421-04:00",
 "name":
 "sub-mouse-ZZPUG_ses-20181207-sample-1_slice-20181207-slice-1_cell-20181207-sample-1_icephys.nwb",
 "path":
 "/sub-mouse-ZZPUG/sub-mouse-ZZPUG_ses-20181207-sample-1_slice-20181207-slice-1_cell-20181207-sample-1_icephys.nwb",
+"sha256":
+"322c4f13f473df4de29edd635ccb4ea2654be5386ef160274d14f5606f81692d",
 "size":
 9456345,
 "type":
