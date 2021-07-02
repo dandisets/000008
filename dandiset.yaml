@@ -2,23 +2,17 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000008
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.4.4/context.json
+about:
+- name: UBERON:0001384
+  schemaKey: Anatomy
 access:
-- status: dandi:OpenAccess
+- contactPoint:
+    schemaKey: ContactPoint
+  schemaKey: AccessRequirements
+  status: dandi:OpenAccess
 assetsSummary:
-  approach: []
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique: []
-  numberOfBytes: 11914166094
-  numberOfCells: 1328
-  numberOfFiles: 1328
-  numberOfSamples: 1260
-  numberOfSubjects: 266
-  schemaKey: AssetsSummary
-  species: []
-  variableMeasured: []
+  numberOfBytes: 0
+  numberOfFiles: 0
 citation: Scala, Federico; Kobak, Dmitry; Bernabucci, Matteo; Bernaerts, Yves; Cadwell,
   Cathryn Rene; Castro, Jesus Ramon; Hartmanis, Leonard; Jiang, Xiaolong; Laturnus,
   Sophie; Miranda, Elanine; Mulherkar, Shalaka; Tan, Zheng Huan; Yao, Zizhen; Zeng,
@@ -26,120 +20,147 @@ citation: Scala, Federico; Kobak, Dmitry; Bernabucci, Matteo; Bernaerts, Yves; C
   variation within and across transcriptomic cell types in mouse motor cortex (Version
   draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000008/draft
 contributor:
-- includeInCitation: true
+- affiliation: []
+  includeInCitation: true
   name: Scala, Federico
   roleName:
   - dcite:DataCollector
   - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
-- identifier: 0000-0002-5639-7209
+- affiliation: []
+  identifier: 0000-0002-5639-7209
   includeInCitation: true
   name: Kobak, Dmitry
   roleName:
   - dcite:Author
   schemaKey: Person
-- identifier: 0000-0003-4458-117X
+- affiliation: []
+  identifier: 0000-0003-4458-117X
   includeInCitation: true
   name: Bernabucci, Matteo
   roleName:
   - dcite:Author
   schemaKey: Person
-- includeInCitation: true
+- affiliation: []
+  includeInCitation: true
   name: Bernaerts, Yves
   roleName:
   - dcite:Author
   schemaKey: Person
-- identifier: 0000-0003-1963-8285
+- affiliation: []
+  identifier: 0000-0003-1963-8285
   includeInCitation: true
   name: Cadwell, Cathryn Rene
   roleName:
   - dcite:Author
   schemaKey: Person
-- includeInCitation: true
+- affiliation: []
+  includeInCitation: true
   name: Castro, Jesus Ramon
   roleName:
   - dcite:Author
   schemaKey: Person
-- identifier: 0000-0002-4922-8781
+- affiliation: []
+  identifier: 0000-0002-4922-8781
   includeInCitation: true
   name: Hartmanis, Leonard
   roleName:
   - dcite:Author
   schemaKey: Person
-- identifier: 0000-0001-8066-1383
+- affiliation: []
+  identifier: 0000-0001-8066-1383
   includeInCitation: true
   name: Jiang, Xiaolong
   roleName:
   - dcite:Author
   schemaKey: Person
-- identifier: 0000-0001-9532-788X
+- affiliation: []
+  identifier: 0000-0001-9532-788X
   includeInCitation: true
   name: Laturnus, Sophie
   roleName:
   - dcite:Author
   schemaKey: Person
-- includeInCitation: true
+- affiliation: []
+  includeInCitation: true
   name: Miranda, Elanine
   roleName:
   - dcite:Author
   schemaKey: Person
-- identifier: 0000-0001-8736-527X
+- affiliation: []
+  identifier: 0000-0001-8736-527X
   includeInCitation: true
   name: Mulherkar, Shalaka
   roleName:
   - dcite:Author
   schemaKey: Person
-- includeInCitation: true
+- affiliation: []
+  includeInCitation: true
   name: Tan, Zheng Huan
   roleName:
   - dcite:Author
   schemaKey: Person
-- identifier: 0000-0002-9361-5607
+- affiliation: []
+  identifier: 0000-0002-9361-5607
   includeInCitation: true
   name: Yao, Zizhen
   roleName:
   - dcite:Author
   schemaKey: Person
-- identifier: 0000-0002-0326-5878
+- affiliation: []
+  identifier: 0000-0002-0326-5878
   includeInCitation: true
   name: Zeng, Hongkui
   roleName:
   - dcite:Author
   schemaKey: Person
-- identifier: 0000-0001-6473-1740
+- affiliation: []
+  identifier: 0000-0001-6473-1740
   includeInCitation: true
   name: Sandberg, Rickard
   roleName:
   - dcite:Author
   schemaKey: Person
-- identifier: 0000-0002-0199-4727
+- affiliation: []
+  identifier: 0000-0002-0199-4727
   includeInCitation: true
   name: Berens, Philipp
   roleName:
   - dcite:Author
   schemaKey: Person
-- identifier: 0000-0002-4305-6376
+- affiliation: []
+  identifier: 0000-0002-4305-6376
   includeInCitation: true
   name: Tolias, Andreas Savas
   roleName:
   - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
-description: Data from the Tolias Lab shared in the BICCN project
+description: We used Patch-seq to combine patch-clamp recording, biocytin staining,
+  and single-cell RNA sequencing of over 1300 neurons in adult mouse motor cortex,
+  providing a comprehensive morpho-electric annotation of almost all transcriptomically
+  defined neural cell types. Contained in this dandiset are the intracellular electrophysiological
+  recordings.
+ethicsApproval: []
 id: DANDI:000008/draft
 identifier: DANDI:000008
+keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation: []
 name: Phenotypic variation within and across transcriptomic cell types in mouse motor
   cortex
+protocol: []
 relatedResource:
 - identifier: doi:10.1101/2020.02.03.929158
   relation: dcite:IsDescribedBy
+  schemaKey: Resource
   url: https://www.biorxiv.org/content/10.1101/2020.02.03.929158v1.full
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.4.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000008/draft
 version: draft
+wasGeneratedBy: []
