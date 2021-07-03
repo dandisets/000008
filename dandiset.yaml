@@ -145,7 +145,8 @@ description: We used Patch-seq to combine patch-clamp recording, biocytin staini
 ethicsApproval: []
 id: DANDI:000008/draft
 identifier: DANDI:000008
-keywords: []
+keywords:
+- Patch-seq
 license:
 - spdx:CC-BY-4.0
 manifestLocation: []
@@ -163,4 +164,9 @@ schemaVersion: 0.4.4
 studyTarget: []
 url: https://dandiarchive.org/dandiset/000008/draft
 version: draft
-wasGeneratedBy: []
+wasGeneratedBy:
+- description: Brain Initiative Cell Census Network (BICCN)
+  name: BICCN
+  schemaKey: Project
+  used: []
+  wasAssociatedWith: []
