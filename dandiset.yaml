@@ -10,6 +10,20 @@ access:
     schemaKey: ContactPoint
   schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: We thank B. Dichter for help with converting electrophysiologial
+  recordings into the NWB format. This work was supported by the National Institute
+  of Mental Health and the National Eye Institute of the National Institutes of Health
+  (NIH) under Award Numbers U19MH114830 (A.S.T., R.S., P.B., H.Z.), R01MH109556 (A.S.T.),
+  EY002520 (A.S.T.), T32EY07001, the Deutsche Forschungsgemeinschaft through a Heisenberg
+  Professorship (BE5601/4-1; P.B.), the Cluster of Excellence “Machine Learning —
+  New Perspectives for Science” (EXC 2064, project number 390727645; P.B.), the Collaborative
+  Research Center 1233 “Robust Vision” (project number 276693517; P.B.), the German
+  Federal Ministry of Education and Research (FKZ 01GQ1601 and 01IS18039A; P.B.),
+  and the Intelligence Advanced Research Projects Activity (IARPA) via Department
+  of Interior/Interior Business Center (DoI/IBC), contract number D16PC00003 (A.S.T.).
+  The views and conclusions contained herein are those of the authors and should not
+  be interpreted as necessarily representing the official policies or endorsements,
+  either expressed or implied, of NIH, IARPA, DoI/IBC, or the US Government.
 assetsSummary:
   approach: []
   dataStandard:
@@ -149,27 +163,42 @@ contributor:
   - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
-description: We used Patch-seq to combine patch-clamp recording, biocytin staining,
+description: 'We used Patch-seq to combine patch-clamp recording, biocytin staining,
   and single-cell RNA sequencing of over 1300 neurons in adult mouse motor cortex,
   providing a comprehensive morpho-electric annotation of almost all transcriptomically
   defined neural cell types. Contained in this dandiset are the intracellular electrophysiological
-  recordings.
+  recordings. See Dandiset #35 for an additional dataset, recorded under the physiological
+  temperature. '
 ethicsApproval: []
 id: DANDI:000008/draft
 identifier: DANDI:000008
 keywords:
 - Patch-seq
+- cortex
+- motor cortex
+- mouse
 license:
 - spdx:CC-BY-4.0
-manifestLocation: []
+manifestLocation:
+- https://api.dandiarchive.org/api/dandisets/000008/versions/draft/assets/
 name: Phenotypic variation within and across transcriptomic cell types in mouse motor
   cortex
-protocol: []
+protocol:
+- 'Patch-seq '
 relatedResource:
-- identifier: doi:10.1101/2020.02.03.929158
+- identifier: doi.org/10.1038/s41586-020-2907-3
   relation: dcite:IsDescribedBy
   schemaKey: Resource
-  url: https://www.biorxiv.org/content/10.1101/2020.02.03.929158v1.full
+  url: https://www.nature.com/articles/s41586-020-2907-3
+- relation: dcite:IsDescribedBy
+  schemaKey: Resource
+  url: https://github.com/berenslab/mini-atlas
+- relation: dcite:IsContinuedBy
+  schemaKey: Resource
+  url: https://assets.nemoarchive.org/dat-kq04hua
+- relation: dcite:IsContinuedBy
+  schemaKey: Resource
+  url: https://download.brainimagelibrary.org/3a/88/3a88a7687ab66069/
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.4.4
