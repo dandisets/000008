@@ -183,8 +183,7 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000008/versions/draft/assets/
 name: Phenotypic variation within and across transcriptomic cell types in mouse motor
   cortex
-protocol:
-- 'Patch-seq '
+protocol: []
 relatedResource:
 - identifier: doi.org/10.1038/s41586-020-2907-3
   relation: dcite:IsDescribedBy
