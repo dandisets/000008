@@ -47,7 +47,7 @@ citation: Scala, Federico; Kobak, Dmitry; Bernabucci, Matteo; Bernaerts, Yves; C
   Sophie; Miranda, Elanine; Mulherkar, Shalaka; Tan, Zheng Huan; Yao, Zizhen; Zeng,
   Hongkui; Sandberg, Rickard; Berens, Philipp; Tolias, Andreas Savas (2021) Phenotypic
   variation within and across transcriptomic cell types in mouse motor cortex (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000008/draft
+  0.211014.0809) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000008/0.211014.0809
 contributor:
 - affiliation: []
   includeInCitation: true
@@ -245,14 +245,16 @@ contributor:
   roleName: []
   schemaKey: Organization
 dateCreated: '2020-03-17T18:20:55.694000+00:00'
+datePublished: '2021-10-14T08:08:21.670954+00:00'
 description: 'We used Patch-seq to combine patch-clamp recording, biocytin staining,
   and single-cell RNA sequencing of over 1300 neurons in adult mouse motor cortex,
   providing a comprehensive morpho-electric annotation of almost all transcriptomically
   defined neural cell types. Contained in this dandiset are the intracellular electrophysiological
   recordings. See Dandiset #35 for an additional dataset, recorded under the physiological
   temperature. '
+doi: 10.48324/dandi.000008/0.211014.0809
 ethicsApproval: []
-id: DANDI:000008/draft
+id: DANDI:000008/0.211014.0809
 identifier: DANDI:000008
 keywords:
 - Patch-seq
@@ -262,11 +264,23 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000008/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000008/0.211014.0809/assets.yaml
 name: Phenotypic variation within and across transcriptomic cell types in mouse motor
   cortex
 protocol:
 - https://doi.org/10.1038/nprot.2017.120
+publishedBy:
+  endDate: '2021-10-14T08:08:21.670954+00:00'
+  id: urn:uuid:e1610e70-0b13-421c-88fe-804973f73776
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2021-10-14T08:08:21.670954+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:32fe0f46-ed1a-4344-b565-bed203420050
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: doi:10.1038/s41586-020-2907-3
   relation: dcite:IsDescribedBy
@@ -285,8 +299,8 @@ repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000008/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000008/0.211014.0809
+version: 0.211014.0809
 wasGeneratedBy:
 - description: Brain Initiative Cell Census Network (BICCN)
   name: BICCN
