@@ -51,7 +51,7 @@ assetsSummary:
 citation: Scala, Federico; Kobak, Dmitry; Bernabucci, Matteo; Bernaerts, Yves; Cadwell,
   Cathryn Rene; Castro, Jesus Ramon; Hartmanis, Leonard; Jiang, Xiaolong; Laturnus,
   Sophie; Miranda, Elanine; Mulherkar, Shalaka; Tan, Zheng Huan; Yao, Zizhen; Zeng,
-  Hongkui; Sandberg, Rickard; Berens, Philipp; Tolias, Andreas Savas (2022) Phenotypic
+  Hongkui; Sandberg, Rickard; Berens, Philipp; Tolias, Andreas Savas (2024) Phenotypic
   variation within and across transcriptomic cell types in mouse motor cortex (Version
   draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000008/draft
 contributor:
@@ -275,16 +275,28 @@ protocol:
 - https://doi.org/10.1038/nprot.2017.120
 relatedResource:
 - identifier: doi:10.1038/s41586-020-2907-3
+  name: Phenotypic variation of transcriptomic cell types in mouse motor cortex
   relation: dcite:IsDescribedBy
+  repository: Nature
+  resourceType: dcite:JournalArticle
   schemaKey: Resource
   url: https://www.nature.com/articles/s41586-020-2907-3
-- relation: dcite:IsDescribedBy
+- name: mini-atlas
+  relation: dcite:IsDescribedBy
+  repository: GitHub
+  resourceType: dcite:Software
   schemaKey: Resource
   url: https://github.com/berenslab/mini-atlas
-- relation: dcite:IsContinuedBy
+- identifier: nemo:dat-kq04hua
+  name: Phenotypic variation of transcriptomic cell types in mouse motor cortex
+  relation: dcite:IsContinuedBy
+  repository: NEMO
+  resourceType: dcite:Dataset
   schemaKey: Resource
   url: https://assets.nemoarchive.org/dat-kq04hua
 - relation: dcite:IsContinuedBy
+  repository: BIL
+  resourceType: dcite:Dataset
   schemaKey: Resource
   url: https://download.brainimagelibrary.org/3a/88/3a88a7687ab66069/
 repository: https://dandiarchive.org
