@@ -193,6 +193,7 @@ contributor:
   - dcite:Author
   schemaKey: Person
 - affiliation: []
+  email: astolias@bcm.edu
   identifier: 0000-0002-4305-6376
   includeInCitation: true
   name: Tolias, Andreas Savas
